@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="5dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="60dp"
+    android:orientation="horizontal"
+    android:background="#fff">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:scaleType="centerInside"
+        android:background="@drawable/circle"
+        android:layout_gravity="center"
+        android:layout_width="50dp"
+        android:src="@drawable/logo"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:textSize="20sp"
+            android:textColor="#424040"
+            android:layout_marginStart="5dp"
+            android:text="User 1 "
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginStart="5dp"
+            android:text="Send wave 👋"
+            />
+    </LinearLayout>
+
+</LinearLayout>
